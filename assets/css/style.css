@@ -14,6 +14,11 @@ a {
 	color: #1d1d1d;
 }
 
+.italic{
+	font-style: italic;
+	font-size: small;
+}
+
 /* Body */
 
 body {
@@ -109,6 +114,10 @@ th, td {
 .table_title {
 	background-color: #5595aa;
 	height: 50px;
+}
+.column_title{
+	width: 250px;
+	height: 30px;
 }
 
 /* Responsive */

@@ -1,5 +1,95 @@
+/* Import GoogleFont */
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+/* All the file */
+
+* {
+	font-family: "Rubik", sans-serif;
+	text-decoration: none;
+}
+
+/* Body */
+
+body {
+	background: #f3f4f5;
+}
+
+/* NavBar */
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	gap: 10%;
+	padding: 32px 0px;
+	background-color: #003547;
+	width: 75%;
+	margin: auto;
+}
+
+.navbar-img > img {
+	width: 100px;
+}
+
+.nav-item {
+	font-size: large;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+.nav-item::after {
+	content: "";
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 3px;
+	background: #f16c05;
+	transform: scaleX(0);
+	transition: transform 0.1s ease-in-out;
+}
+
+.nav-item:hover::after {
+	transform: scaleX(1);
+}
+
+/* Main */
+
+main {
+	background-color: #ffffff;
+	width: 75%;
+	margin: auto;
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Table */
+
 table,
 th,
 td {
 	border: 1px solid black;
+}
+
+.table_title {
+	background-color: #5595aa;
+}
+
+/* @media */
+
+@media screen and (max-width: 600px) {
+	nav {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	.images {
+		text-align: center;
+	}
 }

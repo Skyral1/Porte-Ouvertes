@@ -14,7 +14,7 @@ a {
 	color: #1d1d1d;
 }
 
-.italic{
+.italic {
 	font-style: italic;
 	font-size: small;
 }
@@ -125,26 +125,27 @@ main {
 
 table {
 	border-collapse: collapse;
-	font-weight: bold;
 }
 th {
-	background-color:#5595aa;
-	Color:white;
+	background-color: #5595aa;
+	color: white;
 }
-th, td {
-	width:150px;
-	text-align:center;
-	border:1px solid black;
-	padding:5px
+th,
+td {
+	width: 150px;
+	text-align: center;
+	border: 1px solid black;
+	padding: 5px;
 }
 
 .table_title {
 	background-color: #5595aa;
 	height: 50px;
 }
-.column_title{
+.column_title {
 	width: 250px;
 	height: 30px;
+	font-weight: bold;
 }
 
 /* Responsive */

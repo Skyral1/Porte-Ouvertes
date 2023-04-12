@@ -9,6 +9,10 @@
 	text-decoration: none;
 }
 
+a {
+	color: #1d1d1d;
+}
+
 /* Body */
 
 body {
@@ -63,6 +67,24 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+/* Buttons */
+
+.btn {
+	background-color: #f16c05;
+	display: inline-block;
+	padding: 0.8rem 1.6rem;
+	border-radius: 5px;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: none;
+	transition: all 0.7s;
+}
+
+.btn:hover {
+	color: #f16c05;
+	background-color: #1d1d1d;
 }
 
 /* Table */

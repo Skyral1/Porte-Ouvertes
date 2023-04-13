@@ -166,8 +166,7 @@ td {
 	}
 }
 
-
-/* Dark Mode */ 
+/* Dark Mode */
 
 .toggle {
 	position: relative;
@@ -179,7 +178,7 @@ td {
 	cursor: pointer;
 }
 .toggle::before {
-	content: '';
+	content: "";
 	position: absolute;
 	height: 36.6px;
 	width: 36.6px;
@@ -196,7 +195,7 @@ td {
 	left: calc(100% - 36.6px - 9px);
 }
 
-body.dark{
-	transition: calc(.5s);
+body.dark {
+	transition: calc(0.5s);
 	background-color: #18191a;
 }

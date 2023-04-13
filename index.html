@@ -10,11 +10,43 @@
 			type="image/x-icon"
 		/>
 		<link rel="stylesheet" href="assets/css/style.css" />
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<script src="assets/js/index.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<title>Saint-Raphaël | Portes ouvertes</title>
 	</head>
 	<body>
+		<script>
+			AOS.init();
+		  </script>
 		<header>
+			<!-- Dark mode -->
+			<div class="toggle"></div>
+
+			<!-- JS -->
+			<script>
+				const body = document.querySelector("body"),
+				toggle = document.querySelector(".toggle");
+
+					let getMode = localStorage.getItem("mode");
+					if(getMode && getMode === "dark") {
+						bodu.classList.add("dark");
+						toggle.classList.add("active");
+					}
+					console.log(getMode);
+
+				toggle.addEventListener("click", () => {
+					body.classList.toggle("dark");
+
+				if(!body.classList.contains("dark")){
+					return localStorage.setItem("mode", "light")
+				}
+					localStorage.setItem("mode", "dark")
+				
+				});
+
+				toggle.addEventListener("click", () => toggle.classList.toggle("active"));
+			</script>
 			<nav>
 				<a class="navbar-img" href="./"
 					><img
@@ -23,20 +55,14 @@
 						height="50px"
 					/>
 				</a>
-				<a class="nav-item" href="./activities.html">
-					<p>Activités</p>
+				<a class="nav-item" href="./index.html">
+					<p>Accueil</p>
 				</a>
 				<a class="nav-item" href="./trajet.html">
-					<p>Trajet</p>
+					<p>Cours</p>
 				</a>
-				<a class="nav-item" href="./auberge.html">
-					<p>Auberge</p>
-				</a>
-				<a class="nav-item" href="https://info-paris-straph.tawk.help/">
-					<p>Forum</p>
-				</a>
-				<a class="nav-item" href="./info.html">
-					<p>À propos</p>
+				<a class="nav-item" href="https://www.saint-raphael.be/accueil-saint-raphael">
+					<p>Site Officiel</p>
 				</a>
 			</nav>
 		</header>

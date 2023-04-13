@@ -125,21 +125,22 @@ main {
 
 table {
 	border-collapse: collapse;
+	width: 1000px;
 }
 th {
-	background-color: #5595aa;
+	background-color: #003547;
 	color: white;
 }
 th,
 td {
-	width: 150px;
+	width: px;
 	text-align: center;
 	border: 1px solid black;
 	padding: 5px;
 }
 
 .table_title {
-	background-color: #5595aa;
+	background-color: #003547;
 	height: 50px;
 }
 .column_title {
@@ -163,4 +164,39 @@ td {
 	.images {
 		text-align: center;
 	}
+}
+
+
+/* Dark Mode */ 
+
+.toggle {
+	position: relative;
+	height: 43.3px;
+	width: 100px;
+	border-radius: 100px;
+	background-color: #fff;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+.toggle::before {
+	content: '';
+	position: absolute;
+	height: 36.6px;
+	width: 36.6px;
+	border-radius: 50%;
+	background: #f3f4f5;
+	top: 50%;
+	left: 9px;
+	transform: translateY(-50%);
+	transition: all 0.3s ease-in-out;
+}
+
+.toggle.active::before {
+	background-color: #000;
+	left: calc(100% - 36.6px - 9px);
+}
+
+body.dark{
+	transition: calc(.5s);
+	background-color: #18191a;
 }

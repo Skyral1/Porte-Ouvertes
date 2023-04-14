@@ -1,236 +1,213 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link
-			rel="shortcut icon"
-			href="assets/svg/logo-saint-raph.svg"
-			type="image/x-icon"
-		/>
-		<link rel="stylesheet" href="assets/css/style.css" />
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-		<script src="assets/js/index.js"></script>
-		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		<title>Saint-Raphaël | Portes ouvertes</title>
-	</head>
-	<body>
-		<script>
-			AOS.init();
-		  </script>
-		<header>
-			<!-- Dark mode -->
-			<div class="toggle"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/svg/logo-saint-raph.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="assets/js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Saint-Raphaël | Portes ouvertes</title>
+  </head>
+  <body>
+    <script>
+      AOS.init();
+    </script>
+    <header>
+		<i class="bi bi-brightness-high-fill" id="toggleDark"></i>
+      <nav>
+        <a class="navbar-img" href="./"
+          ><img
+            src="assets/img/Saint-raph-removebg-preview.png"
+            alt="Logo Saint-Raphaël"
+            height="50px"
+          />
+        </a>
+        <a class="nav-item" href="./">
+          <p>Accueil</p>
+        </a>
+        <a class="nav-item" href="./cours.html">
+          <p>Cours</p>
+        </a>
+        <a
+          class="nav-item"
+          href="https://www.saint-raphael.be/accueil-saint-raphael"
+        >
+          <p>Site Officiel</p>
+        </a>
+      </nav>
+    </header>
+    <div id="progress">
+      <span id="progress-value"> &#x1F815; </span>
+    </div>
+    <main>
+      <h1>L'option Informatique</h1>
 
-			<!-- JS -->
-			<script>
-				const body = document.querySelector("body"),
-				toggle = document.querySelector(".toggle");
+      <p>
+        C'est une option de l'enseignement TECHNIQUE DE TRANSITION: elle est
+        destinée à des élèves qui désirent poursuivre dans l'enseignement
+        supérieur.
+      </p>
 
-					let getMode = localStorage.getItem("mode");
-					if(getMode && getMode === "dark") {
-						bodu.classList.add("dark");
-						toggle.classList.add("active");
-					}
-					console.log(getMode);
+      <p>Elle s’adresse à tous ceux qui veulent développer</p>
 
-				toggle.addEventListener("click", () => {
-					body.classList.toggle("dark");
+      <ul>
+        <li>la logique</li>
+        <li>l’analyse</li>
+        <li>le raisonnement</li>
+        <li>la méthode</li>
+        <li>la patience</li>
+        <li>la persévérance</li>
+      </ul>
 
-				if(!body.classList.contains("dark")){
-					return localStorage.setItem("mode", "light")
-				}
-					localStorage.setItem("mode", "dark")
-				
-				});
+      <p>
+        en faisant de l’informatique « intelligente », au même titre que les
+        sciences, l'économie ou le latin.
+      </p>
 
-				toggle.addEventListener("click", () => toggle.classList.toggle("active"));
-			</script>
-			<nav>
-				<a class="navbar-img" href="./"
-					><img
-						src="assets/img/Saint-raph-removebg-preview.png"
-						alt="Logo Saint-Raphaël"
-						height="50px"
-					/>
-				</a>
-				<a class="nav-item" href="./index.html">
-					<p>Accueil</p>
-				</a>
-				<a class="nav-item" href="./trajet.html">
-					<p>Cours</p>
-				</a>
-				<a class="nav-item" href="https://www.saint-raphael.be/accueil-saint-raphael">
-					<p>Site Officiel</p>
-				</a>
-			</nav>
-		</header>
-		<div id="progress">
-			<span id="progress-value"> &#x1F815; </span>
-		</div>
-		<main>
-			<h1>L'option Informatique</h1>
+      <p>
+        Cette section est la conjugaison d'une formation de base avec des outils
+        modernes . Elle peut aider le jeune à se "motiver". Elle vise
+        essentiellement la formation de l'esprit et offre un bon tremplin pour
+        les études futures: toutes les portes sont ouvertes.
+      </p>
 
-			<p>
-				C'est une option de l'enseignement TECHNIQUE DE TRANSITION: elle est
-				destinée à des élèves qui désirent poursuivre dans l'enseignement
-				supérieur.
-			</p>
+      <h2>Grille horaire de l'option Informatique</h2>
 
-			<p>Elle s’adresse à tous ceux qui veulent développer</p>
+      <table>
+        <tr class="table_title">
+          <th></th>
+          <th>3e</th>
+          <th>4e</th>
+          <th>5e</th>
+          <th>6e</th>
+        </tr>
+        <tr>
+          <td class="column_title">Formation commune</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Religion</td>
+          <td>2</td>
+          <td>2</td>
+          <td>2</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Education Physique</td>
+          <td>2</td>
+          <td>2</td>
+          <td>2</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Histoire</td>
+          <td>2</td>
+          <td>2</td>
+          <td>2</td>
+          <td>2</td>
+        </tr>
 
-			<ul>
-				<li>la logique</li>
-				<li>l’analyse</li>
-				<li>le raisonnement</li>
-				<li>la méthode</li>
-				<li>la patience</li>
-				<li>la persévérance</li>
-			</ul>
+        <tr>
+          <td>Géographie</td>
+          <td>2</td>
+          <td>2</td>
+          <td>2</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Français</td>
+          <td>5</td>
+          <td>5</td>
+          <td>4</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Mathématique</td>
+          <td>5</td>
+          <td>5</td>
+          <td>4-6</td>
+          <td>4-6</td>
+        </tr>
+        <tr>
+          <td>Langue Moderne 1</td>
+          <td>4</td>
+          <td>4</td>
+          <td>4</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Sciences</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td class="column_title">Formation optionnelle</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Informatique</td>
+          <td>4</td>
+          <td>4</td>
+          <td>2</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Programmation - langages</td>
+          <td></td>
+          <td></td>
+          <td>2</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Système d’exploitation et logiciels</td>
+          <td>4</td>
+          <td>4</td>
+          <td>2</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Multimedia</td>
+          <td></td>
+          <td></td>
+          <td>2</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td class="column_title">Activité au choix</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>PES : Anglais*</td>
+          <td></td>
+          <td></td>
+          <td>2</td>
+          <td>2</td>
+        </tr>
+      </table>
 
-			<p>
-				en faisant de l’informatique « intelligente », au même titre que les
-				sciences, l'économie ou le latin.
-			</p>
-
-			<p>
-				Cette section est la conjugaison d'une formation de base avec des outils
-				modernes . Elle peut aider le jeune à se "motiver". Elle vise
-				essentiellement la formation de l'esprit et offre un bon tremplin pour
-				les études futures: toutes les portes sont ouvertes.
-			</p>
-
-			<h2>Grille horaire de l'option Informatique</h2>
-
-			<table>
-				<tr class="table_title">
-					<th></th>
-					<th>3e</th>
-					<th>4e</th>
-					<th>5e</th>
-					<th>6e</th>
-				</tr>
-				<tr>
-					<td class="column_title">Formation commune</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>Religion</td>
-					<td>2</td>
-					<td>2</td>
-					<td>2</td>
-					<td>2</td>
-				</tr>
-				<tr>
-					<td>Education Physique</td>
-					<td>2</td>
-					<td>2</td>
-					<td>2</td>
-					<td>2</td>
-				</tr>
-				<tr>
-					<td>Histoire</td>
-					<td>2</td>
-					<td>2</td>
-					<td>2</td>
-					<td>2</td>
-				</tr>
-
-				<tr>
-					<td>Géographie</td>
-					<td>2</td>
-					<td>2</td>
-					<td>2</td>
-					<td>2</td>
-				</tr>
-				<tr>
-					<td>Français</td>
-					<td>5</td>
-					<td>5</td>
-					<td>4</td>
-					<td>4</td>
-				</tr>
-				<tr>
-					<td>Mathématique</td>
-					<td>5</td>
-					<td>5</td>
-					<td>4-6</td>
-					<td>4-6</td>
-				</tr>
-				<tr>
-					<td>Langue Moderne 1</td>
-					<td>4</td>
-					<td>4</td>
-					<td>4</td>
-					<td>4</td>
-				</tr>
-				<tr>
-					<td>Sciences</td>
-					<td>3</td>
-					<td>3</td>
-					<td>3</td>
-					<td>3</td>
-				</tr>
-				<tr>
-					<td class="column_title">Formation optionnelle</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>Informatique</td>
-					<td>4</td>
-					<td>4</td>
-					<td>2</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>Programmation - langages</td>
-					<td></td>
-					<td></td>
-					<td>2</td>
-					<td>4</td>
-				</tr>
-				<tr>
-					<td>Système d’exploitation et logiciels</td>
-					<td>4</td>
-					<td>4</td>
-					<td>2</td>
-					<td>2</td>
-				</tr>
-				<tr>
-					<td>Multimedia</td>
-					<td></td>
-					<td></td>
-					<td>2</td>
-					<td>2</td>
-				</tr>
-				<tr>
-					<td class="column_title">Activité au choix</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>PES : Anglais*</td>
-					<td></td>
-					<td></td>
-					<td>2</td>
-					<td>2</td>
-				</tr>
-			</table>
-
-			<p class="italic">
-				* Obligatoire pour les élèves qui suivent la langue moderne 1
-				néerlandais
-			</p>
-		</main>
-		<footer></footer>
-	</body>
+      <p class="italic">
+        * Obligatoire pour les élèves qui suivent la langue moderne 1
+        néerlandais
+      </p>
+    </main>
+    <footer></footer>
+  </body>
 </html>

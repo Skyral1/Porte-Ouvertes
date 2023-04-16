@@ -11,7 +11,7 @@
 }
 
 a {
-	color: #1d1d1d;
+	color: #f16c05;
 }
 
 .italic {
@@ -103,6 +103,19 @@ main {
 	flex-direction: column;
 	padding: 0 5em;
 	border-radius: 15px;
+}
+
+/* Sommaire */
+
+.sommaire {
+	color: #e4e4e4;
+	/* border-style: solid; */
+	/* border-color: #f16c05; */
+	background-color: #003547;
+	border-radius: 15px;
+
+	padding: 1rem;
+	margin-right: 45em;
 }
 
 /* Buttons */

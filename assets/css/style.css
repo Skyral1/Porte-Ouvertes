@@ -44,7 +44,7 @@ nav {
 	height: 80px;
 }
 
-.nav-item {
+#nav-item {
 	font-size: large;
 	font-weight: 600;
 	color: #ffffff;
@@ -63,6 +63,22 @@ nav {
 
 .nav-item:hover::after {
 	transform: scaleX(1);
+}
+
+.nav_burger {
+	display: none;
+}
+
+#burger-action {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	gap: 10%;
+	padding: 32px 0px;
+	background-color: #003547;
+	width: 50%;
+	/* margin: auto; */
+	/* border-radius: 15px; */
 }
 
 /* Progress bar */
@@ -115,7 +131,7 @@ main {
 	border-radius: 15px;
 
 	padding: 1rem;
-	margin-right: 45em;
+	margin-right: 65%;
 }
 
 /* Buttons */
@@ -185,6 +201,27 @@ tr:hover {
 	}
 }
 
+@media screen and (max-width: 1000px){
+	.sommaire {
+		margin-right: 10%;
+	}
+
+	#burger-action {
+		display: none;
+		margin: auto;
+	}
+
+	.nav_burger {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.nav-item {
+		display: none;
+	}
+}
+
 @media screen and (max-width: 600px) {
 	nav {
 		flex-direction: column;
@@ -201,5 +238,11 @@ tr:hover {
 
 	.images {
 		text-align: center;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	main {
+		padding: 5%;
 	}
 }

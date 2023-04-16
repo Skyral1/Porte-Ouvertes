@@ -255,3 +255,8 @@ tr:hover {
 		display: block;
 	} */
 }
+iframe {
+	margin: 0 auto;
+	display: block;
+    border-style:none;
+}

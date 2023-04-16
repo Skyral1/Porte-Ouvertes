@@ -50,7 +50,11 @@ nav {
 	color: #ffffff;
 }
 
-.nav-item::after {
+#nav-item a {
+	color: #ffffff;
+}
+
+#nav-item::after {
 	content: "";
 	display: block;
 	position: relative;
@@ -61,7 +65,7 @@ nav {
 	transition: transform 0.1s ease-in-out;
 }
 
-.nav-item:hover::after {
+#nav-item:hover::after {
 	transform: scaleX(1);
 }
 
@@ -231,18 +235,23 @@ tr:hover {
 	main {
 		width: auto;
 	}
-
-	h1 {
-		text-align: center;
-	}
-
-	.images {
-		text-align: center;
-	}
 }
 
 @media screen and (max-width: 320px) {
 	main {
 		padding: 5%;
 	}
+
+	.sommaire {
+		margin-right: 0%;
+	}
+
+	/* #burger-action {
+		display: block;
+		margin: auto;
+	}
+
+	.nav_burger {
+		display: block;
+	} */
 }

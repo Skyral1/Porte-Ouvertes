@@ -11,11 +11,16 @@
 		/>
 		<link rel="stylesheet" href="assets/css/style.css" />
 		<script src="assets/js/index.js"></script>
+		<script
+			src="https://kit.fontawesome.com/28b70435c7.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="assets/js/navBurger.js"></script>
 		<title>Saint-Raphaël | Portes ouvertes</title>
 	</head>
 	<body>
 		<header>
-			<nav>
+			<nav id="nav">
 				<a class="navbar-img" href="./"
 					><img
 						src="assets/img/logo-saint-raph-blanc.png"
@@ -23,22 +28,27 @@
 						height="50px"
 					/>
 				</a>
-				<a class="nav-item" href="./">
-					<p>Accueil</p>
-				</a>
-				<a class="nav-item" href="./cours.html">
-					<p>Cours</p>
-				</a>
-				<a class="nav-item" href="./presentation.html">
-					<p>Présentation</p>
-				</a>
-				<a
-					class="nav-item"
-					target="_blank"
-					href="https://www.saint-raphael.be/accueil-saint-raphael"
-				>
-					<p>Site Officiel</p>
-				</a>
+				<a class="nav_burger" href="javascript:void(0);" onclick="myFunction()"
+					><p><i class="fa-solid fa-bars"></i></p
+				></a>
+				<div id="burger-action">
+					<a id="nav-item" href="./">
+						<p>Accueil</p>
+					</a>
+					<a id="nav-item" href="./cours.html">
+						<p>Cours</p>
+					</a>
+					<a id="nav-item" href="./presentation.html">
+						<p>Présentation</p>
+					</a>
+					<a
+						id="nav-item"
+						target="_blank"
+						href="https://www.saint-raphael.be/accueil-saint-raphael"
+					>
+						<p>Site Officiel</p>
+					</a>
+				</div>
 			</nav>
 		</header>
 		<div id="progress">
@@ -65,7 +75,9 @@
 						<a href="#que-faison-nous">Que faisons-nous en informatique?</a>
 					</li> -->
 					<li>
-						<a href="#comment-et-avec-quoi">Comment et avec quoi travaillons-nous?</a>
+						<a href="#comment-et-avec-quoi"
+							>Comment et avec quoi travaillons-nous?</a
+						>
 						<ul>
 							<li><a href="#Moodle">Moodle</a></li>
 							<li><a href="#Discord">Discord</a></li>

@@ -42,7 +42,6 @@ nav {
 .navbar-img > img {
 	width: 150px;
 	height: 80px;
-
 }
 
 .nav-item {
@@ -155,12 +154,32 @@ tr:hover {
 	font-weight: bold;
 }
 
+.info_table {
+	display: none;
+}
+
 /* Responsive */
+
+@media screen and (max-width: 1250px) {
+	.table {
+		width: 1250; 
+		overflow-x: auto;
+		white-space: nowrap; 
+	}
+
+	.info_table {
+		display: block;
+	}
+}
 
 @media screen and (max-width: 600px) {
 	nav {
 		flex-direction: column;
 		text-align: center;
+	}
+
+	main {
+		width: auto;
 	}
 
 	h1 {

@@ -197,6 +197,8 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-content: center;
+	flex-direction: column;
+	align-items: center;
 	gap: 10%;
 	padding: 8px 0px;
 	background-color: #003547;
@@ -231,6 +233,11 @@ a.footer:hover {
 	background-color: #f16c05;
 }
 
+.copyright {
+	color: #fff;
+	font-size: 13px;
+}
+
 /* Credits */
 
 .credits {
@@ -239,6 +246,10 @@ a.footer:hover {
 	padding: 20px;
 	border: 1px solid #003547;
 	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 /* Responsive */

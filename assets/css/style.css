@@ -198,9 +198,9 @@ footer {
 	justify-content: center;
 	align-content: center;
 	gap: 10%;
-	padding: 32px 0px;
+	padding: 8px 0px;
 	background-color: #003547;
-	width: 83.6%;
+	width: 87.9%;
 	margin: auto;
 	margin-top: 15px;
 	border-radius: 15px;
@@ -227,7 +227,7 @@ a.footer {
 }
 
 a.footer:hover {
-	color: #003547;
+	color: #fff;
 	background-color: #f16c05;
 }
 

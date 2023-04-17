@@ -192,6 +192,14 @@ tr:hover {
 	display: none;
 }
 
+/* Iframe */
+
+iframe {
+	margin: 0 auto;
+	display: block;
+	border-style: none;
+}
+
 /* Footer */
 
 footer {
@@ -315,9 +323,4 @@ a.footer:hover {
 	.nav_burger {
 		display: block;
 	} */
-}
-iframe {
-	margin: 0 auto;
-	display: block;
-    border-style:none;
 }

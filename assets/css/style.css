@@ -260,6 +260,19 @@ a.footer:hover {
 	flex-direction: column;
 }
 
+
+
+/* tkt */ 
+
+.h2-cours {
+	padding-top: 2em;
+}
+
+.padding-left {
+	padding-left: 2em;
+}
+
+
 /* Responsive */
 
 @media screen and (max-width: 1250px) {

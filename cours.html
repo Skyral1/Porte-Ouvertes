@@ -1,204 +1,481 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link
-			rel="shortcut icon"
-			href="assets/svg/logo-saint-raph.svg"
-			type="image/x-icon"
-		/>
-		<link rel="stylesheet" href="assets/css/style.css" />
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-		<script src="assets/js/index.js"></script>
-		<script
-			src="https://kit.fontawesome.com/28b70435c7.js"
-			crossorigin="anonymous"
-		></script>
-		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		<script src="assets/js/navBurger.js"></script>
-		<title>Saint-Raphaël | Portes ouvertes</title>
-	</head>
-	<body>
-		<script>
-			AOS.init();
-		</script>
-		<header>
-			<nav id="nav">
-				<a class="navbar-img" href="./"
-					><img
-						src="assets/img/logo-saint-raph-blanc.png"
-						alt="Logo Saint-Raphaël"
-						height="50px"
-					/>
-				</a>
-				<a class="nav_burger" href="javascript:void(0);" onclick="myFunction()"
-					><p><i class="fa-solid fa-bars"></i></p
-				></a>
-				<div id="burger-action">
-					<a id="nav-item" href="./">
-						<p>Accueil</p>
-					</a>
-					<a id="nav-item" href="./cours.html">
-						<p>Cours</p>
-					</a>
-					<a id="nav-item" href="./presentation.html">
-						<p>Présentation</p>
-					</a>
-					<a
-						id="nav-item"
-						target="_blank"
-						href="https://www.saint-raphael.be/accueil-saint-raphael"
-					>
-						<p>Site Officiel</p>
-					</a>
-				</div>
-			</nav>
-		</header>
-		<div id="progress">
-			<span id="progress-value"><i class="fa-solid fa-arrow-up"></i></span>
-		</div>
-		<main>
-			<h1 id="que-faison-nous">Que faisons-nous en informatique?</h1>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="shortcut icon"
+            href="assets/svg/logo-saint-raph.svg"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
+        <script src="assets/js/index.js"></script>
+        <script
+            src="https://kit.fontawesome.com/28b70435c7.js"
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="assets/js/navBurger.js"></script>
+        <title>Saint-Raphaël | Portes ouvertes</title>
+    </head>
+    <body>
+        <script>
+            AOS.init();
+        </script>
+        <header>
+            <nav id="nav">
+                <a class="navbar-img" href="./"
+                    ><img
+                        src="assets/img/logo-saint-raph-blanc.png"
+                        alt="Logo Saint-Raphaël"
+                        height="50px"
+                    />
+                </a>
+                <a
+                    class="nav_burger"
+                    href="javascript:void(0);"
+                    onclick="myFunction()"
+                    ><p><i class="fa-solid fa-bars"></i></p
+                ></a>
+                <div id="burger-action">
+                    <a id="nav-item" href="./">
+                        <p>Accueil</p>
+                    </a>
+                    <a id="nav-item" href="./cours.html">
+                        <p>Cours</p>
+                    </a>
+                    <a id="nav-item" href="./presentation.html">
+                        <p>Présentation</p>
+                    </a>
+                    <a
+                        id="nav-item"
+                        target="_blank"
+                        href="https://www.saint-raphael.be/accueil-saint-raphael"
+                    >
+                        <p>Site Officiel</p>
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <div id="progress">
+            <span id="progress-value"
+                ><i class="fa-solid fa-arrow-up"></i
+            ></span>
+        </div>
+        <main>
+            <h1 id="que-faison-nous">Que faisons-nous en informatique?</h1>
 
-			<p>
-				Dès la troisième, nous voyons les bases de l'informatique et nous
-				apprenons le fonctionnement de la machine.
-			</p>
+            <p>
+                Dès la troisième, nous voyons les bases de l'informatique et
+                nous apprenons le fonctionnement de la machine.
+            </p>
 
-			<p>
-				Nous apprenons aussi à utiliser les outils de bureautique, forts utiles
-				dans la vie professionnelle et de tout les jours.
-			</p>
+            <p>
+                Nous apprenons aussi à utiliser les outils de bureautique, forts
+                utiles dans la vie professionnelle et de tout les jours.
+            </p>
 
-			<div class="sommaire">
-				<h4>Sommaire</h4>
+            <div class="sommaire">
+                <h4>Sommaire</h4>
 
-				<ul>
-					<!-- <li>
+                <ul>
+                    <!-- <li>
 						<a href="#que-faison-nous">Que faisons-nous en informatique?</a>
 					</li> -->
-					<li>
-						<a href="#comment-et-avec-quoi"
-							>Comment et avec quoi travaillons-nous?</a
-						>
-						<ul>
-							<li><a href="#Moodle">Moodle</a></li>
-							<li><a href="#Discord">Discord</a></li>
-							<li><a href="#VS">Visual Studio Code</a></li>
-						</ul>
-					</li>
-					<li></li>
-					<li></li>
-				</ul>
-			</div>
+                    <li>
+                        <a href="#comment-et-avec-quoi"
+                            >Comment et avec quoi travaillons-nous?</a
+                        >
+                        <ul>
+                            <li><a href="#Moodle">Moodle</a></li>
+                            <li><a href="#Discord">Discord</a></li>
+                            <li><a href="#VS">Visual Studio Code</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#programmation">Programmation</a>
+                        <ul>
+                            <li><a href="#HTML">HTML & CSS</a></li>
+                            <li><a href="#Python">Python</a></li>
+                            <li><a href="#JS">JavaScript</a></li>
+                            <li><a href="#SQL">SQL</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#informatique">Informatique</a>
+                        <ul>
+                            <li><a href="#Linux">Linux</a></li>
+                            <li><a href="#DB">Base de données</a></li>
+                            <li><a href="#Secu">Sécurisation de données</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
 
-			<h2 id="comment-et-avec-quoi">Comment et avec quoi travaillons-nous?</h2>
+            <!-- Comment et avec quoi -->
 
-			<div data-aos="fade-up">
-				<h3 id="Moodle">1 - Moodle</h3>
+            <h2 id="comment-et-avec-quoi">
+                Comment et avec quoi travaillons-nous?
+            </h2>
 
-				<p>
-					Pour le partage de travaux, les interros, le journal de classe, etc,
-					nous utillisons
-					<a
-						href="https://moodle.saint-raphael.be"
-						target="_blank"
-						rel="noopener noreferrer"
-						>Moodle</a
-					>, une platforme en ligne gratuite et facile d'utilisation.
-					<br />
-					Elle dispose aussi de l'actualité du monde de la tech, d'une
-					messagerie privée et de pleins d'autres fonctionnalités intéressantes.
-				</p>
-			</div>
-			<div data-aos="fade-up">
-				<h3 id="Discord">2 - Discord</h3>
+            <div data-aos="fade-up">
+                <h3 id="Moodle">1 - Moodle</h3>
 
-				<p>
-					En septempbre 2020, Thibault Soquette et Achille Bruck (élèves en
-					3TT2) ont eu l'idée de créer un serveur
-					<a
-						href="https://discord.com"
-						target="_blank"
-						rel="noopener noreferrer"
-						>Discord</a
-					>
-					permettant aux élèves de la classe de partager plus rapidement leurs
-					travaux et faciliter l'entraide.
-				</p>
+                <p>
+                    Pour le partage de travaux, les interros, le journal de
+                    classe, etc, nous utillisons
+                    <a
+                        href="https://moodle.saint-raphael.be"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Moodle</a
+                    >, une platforme en ligne gratuite et facile d'utilisation.
+                    <br />
+                    Elle dispose aussi de l'actualité du monde de la tech, d'une
+                    messagerie privée et de pleins d'autres fonctionnalités
+                    intéressantes.
+                </p>
+            </div>
+            <div data-aos="fade-up">
+                <h3 id="Discord">2 - Discord</h3>
 
-				<p>
-					Avec les cours en distantiel, l'utilisations de ce serveur à explosé.
-					Thibault Soquette à donc voulu en faire profiter tout les autres
-					élèves de l'école. Il y à consacré plusieurs années à le paufiner pour
-					rendre son utilisation la plus simple possible pour tout les élèves.
-				</p>
+                <p>
+                    En septempbre 2020, Thibault Soquette et Achille Bruck
+                    (élèves en 3TT2) ont eu l'idée de créer un serveur
+                    <a
+                        href="https://discord.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Discord</a
+                    >
+                    permettant aux élèves de la classe de partager plus
+                    rapidement leurs travaux et faciliter l'entraide.
+                </p>
 
-				<p>
-					Malheureusement, son utilisation n'est pas encore démocratisé chez les
-					élèves et le projet n'a toujours pas été accepté par la direction.
-				</p>
+                <p>
+                    Avec les cours en distantiel, l'utilisations de ce serveur à
+                    explosé. Thibault Soquette à donc voulu en faire profiter
+                    tout les autres élèves de l'école. Il y à consacré plusieurs
+                    années à le paufiner pour rendre son utilisation la plus
+                    simple possible pour tout les élèves.
+                </p>
 
-				<p>
-					Pour en savoir plus sur le serveur discord et ses fonctionnalités,
-					rendez-vous sur le
-					<a
-						href="https://sites.google.com/view/saint-raphael/accueil"
-						target="_blank"
-						rel="noopener noreferrer"
-						>site web</a
-					>
-					du serveur scolaire.
-				</p>
+                <p>
+                    Malheureusement, son utilisation n'est pas encore
+                    démocratisé chez les élèves et le projet n'a toujours pas
+                    été accepté par la direction.
+                </p>
 
-				<p>
-					Pour en savoir plus sur
-					<a
-						href="https://discord.com"
-						target="_blank"
-						rel="noopener noreferrer"
-						>Discord</a
-					>
-					et la sécurité de votre ado sur la plateforme, rendez-vous sur la page
-					<a
-						href="https://discord.com/safety"
-						target="_blank"
-						rel="noopener noreferrer"
-						>https://discord.com/safety</a
-					>.
-				</p>
-			</div>
-			<div data-aos="fade-up">
-				<h3 id="VS">3 - Visual Studio Code</h3>
+                <p>
+                    Pour en savoir plus sur le serveur discord et ses
+                    fonctionnalités, rendez-vous sur le
+                    <a
+                        href="https://sites.google.com/view/saint-raphael/accueil"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >site web</a
+                    >
+                    du serveur scolaire.
+                </p>
 
-				<p>
-					<a target="_blank" href="https://code.visualstudio.com/"
-						>Visual Studio Code</a
-					>
-					est un éditeur de code extensible développé par Microsoft pour
-					Windows, Linux et macOS. Cette application nous est utile pour
-					progammer nos premières pages internet (HTML,CSS) ou bien nos premiers
-					script en Python par exemple.
-				</p>
-			</div>
-		</main>
-		<footer>
-			<p class="footer-text-left">
-				<a href="index.html" class="footer">Accueil</a>
-				<a href="https://css.sammy-codes.com/about.html" class="footer"
-					>A propos</a
-				>
-				<a href="credits.html" class="footer">Crédits</a>
-			</p>
-			<p class="copyright">
-				&copy; Tous droits réservés |
-				<a href="https://www.saint-raphael.be/accueil-saint-raphael"
-					>Saint-Raphaël Remouchamps</a
-				>
-				| 4TT2 Informatique - 2022/2023
-			</p>
-		</footer>
-	</body>
+                <p>
+                    Pour en savoir plus sur
+                    <a
+                        href="https://discord.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Discord</a
+                    >
+                    et la sécurité de votre ado sur la plateforme, rendez-vous
+                    sur la page
+                    <a
+                        href="https://discord.com/safety"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >https://discord.com/safety</a
+                    >.
+                </p>
+            </div>
+            <div data-aos="fade-up">
+                <h3 id="VS">3 - Visual Studio Code</h3>
+
+                <p>
+                    <a target="_blank" href="https://code.visualstudio.com/"
+                        >Visual Studio Code</a
+                    >
+                    est un éditeur de code extensible développé par Microsoft
+                    pour Windows, Linux et macOS. Cette application nous est
+                    utile pour progammer nos premières pages internet (HTML,CSS)
+                    ou bien nos premiers script en Python par exemple.
+                </p>
+            </div>
+
+            <!-- Informatique -->
+
+            <h2 class="h2-cours" id="Programmation">
+                Qu'apprennons-nous au cours de Programmation à St. Raphaël ?
+            </h2>
+
+            <div data-aos="fade-up">
+                <h3 id="HTML">1 - HTML & CSS</h3>
+
+                <p>
+                    Grâce à l'outils
+                    <a target="_blank" href="https://code.visualstudio.com/"
+                        >Visual Studio Code</a
+                    >
+
+                    que je vous ai parlé ci-dessus, nous pouvons apprendre a
+                    programmer en différents langages. Ironie du sort, le
+                    premier langage dont je vais vous parler n'en est pas un,
+                    l'<b>HTML</b> & <b>CSS</b> sont des langages de balisages
+                    (utilisation de balises au lieu de instructions). Ces
+                    langage permetent de créer des pages web, l'<b>HTML</b>
+                    permet de créer le corps de la page tans dis que le
+                    <b>CSS</b> lui va permettre de mettre en page, stylisé la
+                    page pour la rendre plus jolie.
+                </p>
+            </div>
+            <div data-aos="fade-up">
+                <h3 id="Python">2 - Python</h3>
+
+                <p>
+                    Le langage de programmation
+                    <a
+                        href="https://python.org"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Python</a
+                    >
+                    est un langage de programmation interprété, multiparadigme
+                    et multiplateformes. Il favorise la programmation impérative
+                    structurée, fonctionnelle et orientée objet.
+                </p>
+            </div>
+            <div data-aos="fade-up">
+                <h3 id="JS">3 - JavaScript</h3>
+
+                <p>
+                    <b>JavaScript</b> est un langage de programmation de scripts
+                    principalement employé dans les pages web interactives et à
+                    ce titre est une partie essentielle des applications web.
+                    Avec les langages HTML et CSS, JavaScript est au cœur des
+                    langages utilisés par les développeurs web.
+                </p>
+            </div>
+            <div data-aos="fade-up">
+                <h3 id="SQL">4 - MySQL</h3>
+
+                <p>
+                    <a
+                        href="https://www.mysql.com/fr/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >SQL</a
+                    >
+                    est un langage informatique normalisé servant à exploiter
+                    des bases de données relationnelles. La partie langage de
+                    manipulation des données de SQL permet de rechercher,
+                    d'ajouter, de modifier ou de supprimer des données dans les
+                    bases de données relationnelles.
+                </p>
+                <p class="italic">
+                    Ce langage n'utilise pas
+                    <a target="_blank" href="https://code.visualstudio.com/"
+                        >Visual Studio Code</a
+                    >
+                    mais
+                    <a
+                        target="_blank"
+                        href="https://www.mysql.com/products/workbench/"
+                        >MySQL Workbench</a
+                    >
+                </p>
+            </div>
+
+            <!-- Informatique -->
+
+            <h2 class="h2-cours" id="informatique">
+                Que faisons-nous au cours d'Informatique à St. Raphaël ?
+            </h2>
+
+            <div data-aos="fade-up">
+                <h3 id="Linux">1 - Linux</h3>
+
+                <p>
+                    <a target="_blank" href="https://www.linux.org/">Linux</a>
+                    est un système d'exploitation open-source, développé à
+                    partir du noyau <b>Linux</b> créé par Linus Torvalds en
+                    1991. Contrairement à d'autres systèmes d'exploitation comme
+                    Windows ou macOS, <b>Linux</b> est distribué gratuitement et
+                    son code source est accessible à tous, ce qui permet à des
+                    milliers de développeurs de contribuer à son amélioration et
+                    à son évolution.
+                </p>
+                <p>
+                    <b>Linux</b> est utilisé dans une variété d'applications,
+                    allant des ordinateurs personnels aux serveurs en passant
+                    par les supercalculateurs. Il est réputé pour sa stabilité,
+                    sa sécurité et sa flexibilité. <b>Linux</b> est également
+                    compatible avec une large gamme de matériels et de
+                    logiciels, offrant aux utilisateurs une grande liberté dans
+                    la personnalisation de leur système selon leurs besoins et
+                    leurs préférences.
+                </p>
+                <p>
+                    <a target="_blank" href="https://www.ubuntu-fr.org/"
+                        >Ubuntu</a
+                    >
+                    est une distribution de <b>Linux</b> populaire et
+                    conviviale, conçue pour être facile à utiliser et à
+                    installer, même pour les débutants en informatique. Basée
+                    sur la distribution Debian, elle offre une grande
+                    bibliothèque de logiciels et une communauté de support
+                    importante pour aider les utilisateurs à personnaliser leur
+                    système et à résoudre les problèmes éventuels.
+                    <a target="_blank" href="https://www.ubuntu-fr.org/"
+                        >Ubuntu</a
+                    >
+                    est également appréciée pour sa stabilité, sa sécurité et sa
+                    polyvalence, ce qui en fait une solution idéale pour les
+                    utilisateurs personnels et professionnels.
+                </p>
+            </div>
+            <div data-aos="fade-up">
+                <h3 id="DB">2 - Base de données</h3>
+
+                <p>
+					Une base de données est un ensemble organisé de données structurées qui sont stockées et gérées électroniquement. Les données peuvent être stockées dans différents formats, tels que des chiffres, du texte, des images ou des fichiers audio. Une base de données permet de stocker, d'organiser et de récupérer des données rapidement et efficacement. Elle peut être utilisée dans de nombreux domaines, tels que les entreprises, la science, la médecine et l'éducation. Les bases de données peuvent être gérées par des logiciels de gestion de bases de données (SGBD) qui permettent aux utilisateurs d'ajouter, de supprimer et de modifier des données en toute sécurité.
+                </p>
+            </div>
+            <div data-aos="fade-up">
+                <h3 id="Secu">3 - Sécurisation et Chiffrement de données</h3>
+                <div class="padding-left">
+                    <ul>
+                        <li>Bitlocker</li>
+                        <li>VPN</li>
+                        <li>HTTPS</li>
+                        <li>TLS</li>
+                    </ul>
+
+                    <h4>Bitlocker</h4>
+                    <p>
+                        <b>BitLocker</b> est une fonctionnalité de chiffrement
+                        de disque complet proposée par Microsoft Windows pour
+                        protéger les données sur un disque dur ou un lecteur de
+                        stockage externe. Il utilise un algorithme de
+                        chiffrement AES et peut protéger les données à la fois
+                        en mouvement et au repos.
+                        <b>BitLocker</b>
+                        est conçu pour protéger les ordinateurs portables, les
+                        ordinateurs de bureau et les serveurs contre les
+                        attaques de vol de données, en offrant une sécurité de
+                        niveau entreprise pour les données stockées sur un
+                        disque dur ou une clé USB.
+                    </p>
+
+                    <h4>VPN</h4>
+                    <p>
+                        Un réseau privé virtuel <i>(VPN)</i> est une technologie
+                        de réseau qui permet de créer une connexion sécurisée et
+                        chiffrée entre un ordinateur ou un appareil mobile et un
+                        serveur distant sur Internet. Cette connexion permet à
+                        l'utilisateur de naviguer sur Internet de manière
+                        anonyme et de contourner les restrictions géographiques
+                        en masquant l'adresse IP de l'utilisateur et en le
+                        faisant apparaître comme s'il était connecté à Internet
+                        depuis un autre endroit. Les VPN sont largement utilisés
+                        pour protéger la confidentialité des données, sécuriser
+                        les connexions Wi-Fi publiques et accéder à des contenus
+                        en ligne restreints dans certaines régions
+                        géographiques.
+                    </p>
+
+                    <h4>HTTPS</h4>
+                    <p>
+                        <b>HTTPS</b> est un protocole de communication sécurisé
+                        qui utilise le chiffrement SSL/TLS pour protéger les
+                        échanges de données entre un navigateur web et un
+                        serveur distant. Contrairement au protocole HTTP
+                        classique, <b>HTTPS</b> garantit que les données
+                        échangées sont cryptées et donc protégées contre les
+                        attaques de type interception ou écoute. Le chiffrement
+                        SSL/TLS permet également d'authentifier le serveur
+                        distant et de garantir l'intégrité des données
+                        échangées, offrant ainsi une sécurité renforcée pour les
+                        transactions en ligne, les opérations bancaires et
+                        toutes les autres formes de communication sensibles sur
+                        Internet.
+                    </p>
+
+                    <h4>TLS</h4>
+                    <p>
+                        Transport Layer Security <i>(TLS)</i> est un protocole
+                        de sécurité utilisé pour garantir la confidentialité et
+                        l'intégrité des données échangées sur Internet. Il est
+                        basé sur le chiffrement symétrique et asymétrique et
+                        utilise des certificats numériques pour authentifier les
+                        serveurs distants. TLS est utilisé pour sécuriser les
+                        connexions HTTPS, les connexions de messagerie
+                        électronique, les connexions VPN et de nombreuses autres
+                        applications qui nécessitent une sécurité renforcée pour
+                        protéger les données en transit. TLS a remplacé son
+                        prédécesseur, le protocole SSL, et est maintenant la
+                        norme de facto pour la sécurisation des communications
+                        sur Internet.
+                    </p>
+                </div>
+            </div>
+            <div data-aos="fade-up">
+                <h3 id="SQL">4 - MySQL</h3>
+
+                <p>
+                    <a
+                        href="https://www.mysql.com/fr/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >SQL</a
+                    >
+                    est un langage informatique normalisé servant à exploiter
+                    des bases de données relationnelles. La partie langage de
+                    manipulation des données de SQL permet de rechercher,
+                    d'ajouter, de modifier ou de supprimer des données dans les
+                    bases de données relationnelles.
+                </p>
+                <p class="italic">
+                    Ce langage n'utilise pas
+                    <a target="_blank" href="https://code.visualstudio.com/"
+                        >Visual Studio Code</a
+                    >
+                    mais
+                    <a
+                        target="_blank"
+                        href="https://www.mysql.com/products/workbench/"
+                        >MySQL Workbench</a
+                    >
+                </p>
+            </div>
+        </main>
+        <footer>
+            <p class="footer-text-left">
+                <a href="index.html" class="footer">Accueil</a>
+                <a href="https://css.sammy-codes.com/about.html" class="footer"
+                    >A propos</a
+                >
+                <a href="credits.html" class="footer">Crédits</a>
+            </p>
+            <p class="copyright">
+                &copy; Tous droits réservés |
+                <a href="https://www.saint-raphael.be/accueil-saint-raphael"
+                    >Saint-Raphaël Remouchamps</a
+                >
+                | 4TT2 Informatique - 2022/2023
+            </p>
+        </footer>
+    </body>
 </html>

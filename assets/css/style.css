@@ -163,10 +163,12 @@ table {
 	border-collapse: collapse;
 	width: 1000px;
 }
+
 th {
 	background-color: #003547;
 	color: white;
 }
+
 th,
 td {
 	text-align: center;
@@ -260,9 +262,7 @@ a.footer:hover {
 	flex-direction: column;
 }
 
-
-
-/* tkt */ 
+/* tkt */
 
 .h2-cours {
 	padding-top: 2em;
@@ -271,7 +271,6 @@ a.footer:hover {
 .padding-left {
 	padding-left: 2em;
 }
-
 
 /* Responsive */
 

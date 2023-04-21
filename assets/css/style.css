@@ -142,7 +142,8 @@ main {
 /* Buttons */
 
 .btn {
-	background-color: #f16c05;
+	color: #ffffff;
+	background-color: #003547;
 	display: inline-block;
 	padding: 0.8rem 1.6rem;
 	border-radius: 5px;
@@ -153,8 +154,8 @@ main {
 }
 
 .btn:hover {
-	color: #f16c05;
-	background-color: #1d1d1d;
+	/* color: #f16c05; */
+	background-color: #f16c05;
 }
 
 /* Table */
@@ -325,7 +326,7 @@ a.footer:hover {
 
 @media screen and (max-width: 425px){
 	iframe {
-		width: 300px;
+		width: 295px;
 		height: 315px;
 	}
 }
